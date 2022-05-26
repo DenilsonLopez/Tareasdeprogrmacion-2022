@@ -1,0 +1,15 @@
+import java.util.*;
+class Main {  
+  public static void main(String args[]) { 
+    List<Float> list=new ArrayList<Float>();
+    list.add(new Float(2.5));  
+    list.add(new Float(8.6));  
+    list.add(new Float(5.2));  
+    list.add(new Float(6.8));  
+    list.add(new Float(7.2)); 
+    
+    for(Float r:list){
+      System.out.println(r);
+    }
+  } 
+}
