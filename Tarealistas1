@@ -1,0 +1,14 @@
+import java.util.*;
+class Main {  
+  public static void main(String args[]) { 
+    List<String> list=new ArrayList<String>();
+    list.add("Perros");  
+    list.add("Gatos");  
+    list.add("Conejos");  
+    list.add("Gallinas");
+    list.add("Patos");
+    for (int animales = 0; animales < list.size(); animales++) {
+            System.out.println(list.get(animales));
+        }
+  } 
+}
