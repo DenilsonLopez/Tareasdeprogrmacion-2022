@@ -1,0 +1,11 @@
+#include  <iostream>
+
+int main (){
+
+    std::cout << "Nombre: Denilson Orlando Lopez Alonso\n";
+    std::cout << "Fecha de Nacimiento: 13 de Abril del 2004\n";
+    std::cout << "Edad: 18 Años\n";
+    std::cout << "Hobby Favorito: Jugar futbol\n";
+    std::cout << "Grupo/Artista Favorito: Los Tucanes de Tijuana JAJA\n";
+    return 0;
+}
